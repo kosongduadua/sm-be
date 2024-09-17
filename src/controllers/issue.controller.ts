@@ -1,7 +1,7 @@
 import {BaseController} from './base.controller';
 
 import e from 'express';
-import {BadRequestError, InternalServerError, NotFoundError} from "../errors/custom.errors";
+import {BadRequestError, NotFoundError} from "../errors/custom.errors";
 import {CreateIssueDto, Issue} from "../models/issue.model";
 import {IssueService} from "../services/issue.service";
 
